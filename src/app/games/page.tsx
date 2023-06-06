@@ -1,3 +1,4 @@
+import Menu from "@/components/Menu";
 import Image from "next/image";
 
 type Game = {
@@ -35,6 +36,7 @@ export default async function Games() {
               className="object-cover rounded-md"
             />
           </div>
+          <Menu />
         </div>
       ))}
     </main>
